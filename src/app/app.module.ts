@@ -25,6 +25,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import { CarouselComponent } from './componenets/carousel/carousel.component';
 
 
 
@@ -42,6 +43,7 @@ import {MatSelectModule} from '@angular/material/select';
     ImagedialogComponent,
     LoginComponent,
     SignupComponent,
+    CarouselComponent,
     
   ],
   imports: [
