@@ -18,6 +18,14 @@ import { DetaildialogComponent } from './componenets/modals/detaildialog/detaild
 import { FbxdialogComponent } from './componenets/modals/fbxdialog/fbxdialog.component';
 import {MatIconModule} from '@angular/material/icon';
 import { ImagedialogComponent } from './componenets/modals/imagedialog/imagedialog.component';
+import { LoginComponent } from './componenets/login/login.component';
+import { SignupComponent } from './componenets/signup/signup.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+
 
 
 
@@ -32,6 +40,8 @@ import { ImagedialogComponent } from './componenets/modals/imagedialog/imagedial
     DetaildialogComponent,
     FbxdialogComponent,
     ImagedialogComponent,
+    LoginComponent,
+    SignupComponent,
     
   ],
   imports: [
@@ -41,6 +51,12 @@ import { ImagedialogComponent } from './componenets/modals/imagedialog/imagedial
     HttpClientModule,
     MatDialogModule,
     MatIconModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
