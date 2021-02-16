@@ -4,11 +4,15 @@ import { PagenotfoundComponent } from './componenets/pagenotfound/pagenotfound.c
 import { MaincontainerComponent } from './containers/maincontainer/maincontainer.component';
 import { VirtualwalkComponent } from './containers/virtualwalk/virtualwalk.component';
 import { FbxdialogComponent } from './componenets/modals/fbxdialog/fbxdialog.component';
+import {LoginComponent}  from  './componenets/login/login.component';
+import {SignupComponent} from './componenets/signup/signup.component';
 const routes: Routes = [ 
     {path: 'virtualwalk', component: VirtualwalkComponent},
     {path: '', redirectTo: '/main', pathMatch: 'full'},
     {path: 'main', component: MaincontainerComponent},
     {path: 'fbxdialog/:id', component:FbxdialogComponent},
+    {path: 'login', component:LoginComponent},
+    {path: 'signup', component:SignupComponent},
     {path: '**', component: PagenotfoundComponent}];
 
 @NgModule({
