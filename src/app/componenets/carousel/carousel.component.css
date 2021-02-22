@@ -5,10 +5,28 @@ p, h5
 
 .carousel-item
 {
-    height: 85vh;
+    height: 95vh;
 }
 
 img
 {
     width: 20vh;
+}
+ .button-position{
+  /* bottom:10% !important; */
+  height: 10%;
+  width: 10;
+  top: 88% !important;
+} 
+.button-background{
+    background-color: grey;
+    opacity: 0.8;
+}
+.button-design{
+  height: 10%;
+  width: 10%;
+}
+.span-style{
+    width: 45px !important;
+    height: 45px  !important;
 }
