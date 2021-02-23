@@ -26,6 +26,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import { CarouselComponent } from './componenets/carousel/carousel.component';
+import { CardsComponent } from './componenets/cards/cards.component';
+import {MatCardModule} from '@angular/material/card';
+import { CardcontainerComponent } from './containers/cardcontainer/cardcontainer.component';
 
 
 
@@ -44,6 +47,8 @@ import { CarouselComponent } from './componenets/carousel/carousel.component';
     LoginComponent,
     SignupComponent,
     CarouselComponent,
+    CardsComponent,
+    CardcontainerComponent,
     
   ],
   imports: [
@@ -59,6 +64,7 @@ import { CarouselComponent } from './componenets/carousel/carousel.component';
     MatFormFieldModule,
     MatSelectModule,
     MatInputModule,
+    MatCardModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
