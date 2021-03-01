@@ -6,8 +6,10 @@ import { VirtualwalkComponent } from './containers/virtualwalk/virtualwalk.compo
 import { FbxdialogComponent } from './componenets/modals/fbxdialog/fbxdialog.component';
 import {LoginComponent}  from  './componenets/login/login.component';
 import {SignupComponent} from './componenets/signup/signup.component';
+import {ProfileComponent} from './componenets/profile/profile.component';
 const routes: Routes = [ 
     {path: 'virtualwalk', component: VirtualwalkComponent},
+    {path: 'profile',component: ProfileComponent},
     {path: '', redirectTo: '/main', pathMatch: 'full'},
     {path: 'main', component: MaincontainerComponent},
     {path: 'fbxdialog/:id', component:FbxdialogComponent},

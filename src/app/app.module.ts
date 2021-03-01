@@ -31,6 +31,10 @@ import {MatCardModule} from '@angular/material/card';
 import { CardcontainerComponent } from './containers/cardcontainer/cardcontainer.component';
 import { FooterComponent } from './componenets/footer/footer.component';
 import { ProfileMenuComponent } from './componenets/profile-menu/profile-menu.component';
+import { ProfileComponent } from './componenets/profile/profile.component';
+import { DoughnutChartComponent } from './componenets/doughnut-chart/doughnut-chart.component';
+import { ChartsModule } from 'ng2-charts';
+import { PostsComponent } from './componenets/posts/posts.component';
 
 
 
@@ -53,6 +57,9 @@ import { ProfileMenuComponent } from './componenets/profile-menu/profile-menu.co
     CardcontainerComponent,
     FooterComponent,
     ProfileMenuComponent,
+    ProfileComponent,
+    DoughnutChartComponent,
+    PostsComponent,
     
   ],
   imports: [
@@ -69,6 +76,7 @@ import { ProfileMenuComponent } from './componenets/profile-menu/profile-menu.co
     MatSelectModule,
     MatInputModule,
     MatCardModule,
+    ChartsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

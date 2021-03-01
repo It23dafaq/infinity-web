@@ -8,7 +8,7 @@ import { DeviceDetectorService } from 'ngx-device-detector';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'skapani-app';
+  title = 'infinity-app';
   deviceInfo :any ;
   constructor(
     public translate: TranslateService,private deviceService: DeviceDetectorService
