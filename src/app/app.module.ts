@@ -30,6 +30,7 @@ import { CardsComponent } from './componenets/cards/cards.component';
 import {MatCardModule} from '@angular/material/card';
 import { CardcontainerComponent } from './containers/cardcontainer/cardcontainer.component';
 import { FooterComponent } from './componenets/footer/footer.component';
+import { ProfileMenuComponent } from './componenets/profile-menu/profile-menu.component';
 
 
 
@@ -51,6 +52,7 @@ import { FooterComponent } from './componenets/footer/footer.component';
     CardsComponent,
     CardcontainerComponent,
     FooterComponent,
+    ProfileMenuComponent,
     
   ],
   imports: [

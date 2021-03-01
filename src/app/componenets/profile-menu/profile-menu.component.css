@@ -1,0 +1,11 @@
+mat-icon
+{
+    vertical-align: middle;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
